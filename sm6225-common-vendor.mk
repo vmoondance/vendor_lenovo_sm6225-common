@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lenovo/sm6225-common
 
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/sm6225-common/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.Performance.xml \
-    vendor/lenovo/sm6225-common/proprietary/etc/permissions/com.qualcomm.qti.UxPerformance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.UxPerformance.xml \
     vendor/lenovo/sm6225-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/lenovo/sm6225-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/lenovo/sm6225-common/proprietary/lib64/libtflite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtflite.so \

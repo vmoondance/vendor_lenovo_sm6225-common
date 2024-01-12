@@ -70,42 +70,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PerformanceMode",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/app/PerformanceMode/PerformanceMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QtiTelephonyService",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "uceShimService",
 	owner: "lenovo",
 	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "workloadclassifier",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/app/workloadclassifier/workloadclassifier.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -137,48 +104,6 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "ims",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "qcrilmsgtunnel",
-	owner: "lenovo",
-	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "QPerformance",
-	owner: "lenovo",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "QXPerformance",
-	owner: "lenovo",
-	jars: ["proprietary/framework/QXPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "lenovo",
-	jars: ["proprietary/framework/UxPerformance.jar"],
-}
-
 dex_import {
 	name: "WfdCommon",
 	owner: "lenovo",
@@ -202,13 +127,6 @@ dex_import {
 	name: "dpmapi",
 	owner: "lenovo",
 	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qcrilhook",
-	owner: "lenovo",
-	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
 	system_ext_specific: true,
 }
 
